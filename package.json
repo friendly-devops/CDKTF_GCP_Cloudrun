@@ -1,0 +1,24 @@
+{
+    "name": "BMO_IAC",
+    "version": "1.0.0",
+    "main": "main.js",
+    "types": "main.ts",
+    "private": true,
+    "scripts": {
+        "build": "tsc",
+        "upgrade": "npm i cdktf@latest cdktf-cli@latest"
+    },
+    "engines": {
+        "node": ">=16.0"
+    },
+    "dependencies": {
+        "@cdktf/provider-google": "^14.13.1",
+        "cdktf": "^0.20.0",
+        "cdktf-cli": "^0.20.10",
+        "constructs": "^10.2.70",
+        "terraform": "^1.23.0"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2"
+    }
+}

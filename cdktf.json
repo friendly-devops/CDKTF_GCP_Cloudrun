@@ -1,0 +1,8 @@
+{
+  "language": "typescript",
+  "app": "BMO IAC",
+  "sendCrashReports": "false",
+  "terraformProviders": ["google"],
+  "terraformModules": [],
+  "projectId": "8ecf6316-d611-442b-ad09-093e96ebe352"
+}
